@@ -1,0 +1,46 @@
+{
+  "name": "all-media-downloader",
+  "version": "1.0.0",
+  "description": "Downloader module for various platforms including YouTube, Instagram, Twitter, etc.",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyanRIS/all-media-downloader.git"
+  },
+  "keywords": [
+    "downloader",
+    "youtube",
+    "instagram",
+    "tiktok",
+    "ytdl",
+    "igdl",
+    "ttdl",
+    "twitter",
+    "twdl"
+  ],
+  "author": "riyanris",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RiyanRIS/all-media-downloader/issues"
+  },
+  "homepage": "https://github.com/RiyanRIS/all-media-downloader",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3"
+  },
+  "dependencies": {
+    "@bochilteam/scraper": "^5.0.1",
+    "@distube/ytdl-core": "^4.13.7",
+    "dotenv": "^16.4.5",
+    "get-twitter-media": "^2.0.8",
+    "nayan-media-downloader": "^2.4.5",
+    "zod": "^3.23.8"
+  }
+}
