@@ -2,6 +2,7 @@
   "name": "all-media-downloader",
   "version": "1.0.0",
   "description": "Downloader module for various platforms including YouTube, Instagram, Twitter, etc.",
+  "type": "module",
   "exports": {
     "import": "./src/index.js",
     "require": "./dist/index.js"
