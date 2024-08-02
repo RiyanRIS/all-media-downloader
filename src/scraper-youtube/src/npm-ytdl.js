@@ -42,3 +42,7 @@ export async function npmytdl(media, kualitas) {
     }
   });
 }
+
+export function validateURL(url) {
+  return ytdl.validateURL(url);
+}

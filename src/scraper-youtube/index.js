@@ -18,6 +18,10 @@ import { bochilteamyt } from "./src/bochil-team.js";
 export async function youtubedl(media, options = {}) {
   const validQualities = ['360p', '480p', '720p', '1080p'];
   const kualitas = options.kualitas || '360p';
+  
+  if (!npmytdl.validateURL(media)) {
+    return { success: false, error: 'URL media tidak valid. Harus merupakan link YouTube.' };
+  }
 
    if (!validQualities.includes(kualitas)) {
     return { status: false, error: `kualitas hanya ${validQualities.join(', ')}` };
