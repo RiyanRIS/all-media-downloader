@@ -39,7 +39,6 @@
   "dependencies": {
     "@bochilteam/scraper": "^5.0.1",
     "@distube/ytdl-core": "^4.13.7",
-    "dotenv": "^16.4.5",
     "get-twitter-media": "^2.0.8",
     "nayan-media-downloader": "^2.4.5",
     "zod": "^3.23.8"
